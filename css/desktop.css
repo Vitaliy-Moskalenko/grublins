@@ -1,0 +1,25 @@
+﻿@font-face{ font-family:celtic; src:url(../stuff/celticmd.ttf); }   
+@font-face{ font-family:b52; src:url(../stuff/b52.ttf); } 
+
+*{padding:0;margin:0;}
+body{overflow-x:hidden; font-family:normal arial,tahoma,serif;background:url(../img/kilt-background.jpg);color:#fff;}
+a{text-decoration:none;} 
+ul{list-style:none;}
+li{list-style-type:none;}
+
+header {  text-align:center; text-shadow:2px 2px 2px black; padding:20px; }
+header h1 {  font-size:3em; font-family:celtic; }
+header h3 {  font-family:arial; font-size:1.5em; color:#2a5885; font-weight:bold;  }
+header img {  margin: 10px 0 0 20px; }
+
+nav {  float:left; width:25%; margin-left:20px; }
+nav li  { background:#006400; display:block; padding:5px 10px; text-align:left;  font-family:b52; font-size:1.5em; 
+    color:#f70; margin:0 15px 5px 0; box-shadow:2px 2px 2px black; border-radius:5px; }
+nav li:hover { color:#fff; }
+	
+main {  color:#000; font-family:arial; font-size:1em; float:left; width:67%; padding:20px;  background:#ceeb60; 
+	box-shadow:3px 3px 3px black; border-radius:5px;  }
+
+main img {  float:left; margin:5px 15px 5px 5px; }	
+main div#txt { padding:20px 5px 0 10px; }
+
