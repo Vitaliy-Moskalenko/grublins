@@ -14,13 +14,16 @@ header h3 {  font-family:arial; font-size:1.5em; color:#2a5885; font-weight:bold
 header img {  margin: 10px 0 0 20px; }
 
 nav {  float:left; width:25%; margin-left:20px; }
-nav li  { background:#006400; display:block; padding:5px 10px; text-align:left; font-family:b52; font-size:1em; 
+nav li, #home, #vk-home { background:#006400; display:block; padding:5px 10px; text-align:left; font-family:b52; font-size:1em; 
     color:#f70; margin:0 15px 5px 0; box-shadow:2px 2px 2px black; border-radius:5px; }
-nav li:hover { color:#fff; }
+nav li:hover, #home:hover, #vk-home:hover { color:#fff; }
 	
-main {  color:#000; font-family:arial; font-size:1em; float:left; width:60%; padding:20px;  background:#ceeb60; 
+main {  color:#000; font-family:arial; font-size:1em; float:right; width:60%; padding:20px;  background:#ceeb60; 
 	box-shadow:3px 3px 3px black; border-radius:5px;  }
 
 main img {  float:left; margin:5px 15px 5px 5px; }	
 main div#txt { padding:20px 5px 0 10px; }
 
+/*----------------Footer------------------------------*/
+#home-cntainer { margin-top:80px; }
+#home, #vk-home { background-color:#2a5885; }
